@@ -1,4 +1,9 @@
+require pry
+
 def line (deli)
-  puts "The line is currently empty."
-  
+  if deli.empty?
+    binding.pry
+    puts "The line is currently empty."
+  else
+    
 end
