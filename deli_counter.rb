@@ -11,3 +11,7 @@ def line (deli)
     puts line_string
   end
 end
+
+def take_a_number
+  
+end
